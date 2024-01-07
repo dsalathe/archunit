@@ -9,7 +9,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class ArchangelsService {
-    private ArchangelsRepository repository;
+    private final ArchangelsRepository repository;
 
     public ArchangelsService(ArchangelsRepository repository) {
         this.repository = repository;
